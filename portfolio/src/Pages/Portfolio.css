@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+}
+
+
+
+
+
+.Home{
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Abouttext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Abouttext-child{
+  width: 420px;
+  align-items: center;
+}
+.Abouttext-child h1{
+  font-family: "Truculenta", sans-serif;
+  font-weight: 800;
+  font-size: 42px;
+}
+.Abouttext-child h2{
+  font-family: "Truculenta", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.Profilephoto{
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 0, 0);
+}
+.Handemo{
+  width: 40px;
+  height: 100%;
+}
+.Tech{
+  display: flex;
+  margin-top: 50px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Tech h2{
+  font-family: "Truculenta", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+.Tech img{
+  width: 45px;
+  padding: 3px;
+ 
+}
+
+.contact{
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 28px;
+  color: wheat;
+}
+
+.icon{
+  width: 40px;
+  height: 30px;
+}
+.contact a {
+  font-family: "Truculenta", sans-serif;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  padding: 6px;
+  text-decoration: none;
+}
+.contact h3{
+  padding-bottom: 6px;
+  font-family: "Truculenta", sans-serif;
+  text-transform: uppercase;
+}
+.contact span  :hover{
+  color: rgb(0, 157, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .Home{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .Abouttext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  
+
+  .Abouttext-child {
+    display: flex;
+    flex-direction:  column;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .Profilephotodiv{
+    padding: 30px ;
+  }
+  .Profilephoto{
+    width: 160px; 
+  }
+
+  .Handemo{
+    width: 20px; 
+  }
+
+  .Tech{
+    margin-top: 15px; 
+  }
+
+  .Tech h2{
+    font-size: 20px; 
+  }
+
+  .Tech img{
+    width: 35px;
+  }
+
+  .contact {
+    padding: 20px; 
+  }
+
+  .contact a {
+    font-size: 18px; 
+    padding: 4px;
+  }
+
+  .contact h3{
+    font-size: 20px; 
+  }
+
+  .Abouttext-child h1{
+    font-size: 30px; 
+  }
+  .Abouttext-child h2{
+    font-size: 25px; 
+  }
+  
+}
+
+
+
+

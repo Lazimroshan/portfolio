@@ -1,0 +1,69 @@
+.Mainnav{
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .Navchild a{
+    text-decoration: none;
+    color: black;
+    font-family: "Truculenta", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .Navchild{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .Navchild a:hover{
+     color: rgb(255, 0, 0);
+     animation: navtext 2s ease-in-out;
+  
+  }
+  
+  @keyframes navtext {
+    0%{
+      letter-spacing: 1px;
+      transform: scale(1);
+    }
+    50%{
+      letter-spacing: 3px;
+    }
+    100%{
+      letter-spacing: 1px;
+      transform:scale(1.1) ;    
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .Mainnav {
+      justify-content: center; /* Center align navigation items */
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      
+    }
+    
+    .Navchild{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 5px;
+    }   
+    .name{
+      visibility: hidden;
+    } 
+  }
+
+
+.Navchild a.active {
+  color: rgb(255, 0, 0); 
+  text-decoration: underline;
+}
