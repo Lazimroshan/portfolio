@@ -67,8 +67,8 @@ function Portfolio() {
           <div className="contact">
           <h3 >Contact Me</h3>
           <span> <a href="" className="a-text"><MdEmail className="icon" />lasimroshan@gmail.com</a></span> 
-          <span>  <a href=""><FaLinkedin className="icon" /> Lasim Roshan </a></span>
-          <span><a href=""><FaGithubAlt className="icon" /> lazimroshan</a></span>
+          <span>  <a href="https://www.linkedin.com/in/lasim-roshan-72b3a52a9/"><FaLinkedin className="icon" /> Lasim Roshan </a></span>
+          <span><a href="https://github.com/Lazimroshan"><FaGithubAlt className="icon" /> lazimroshan</a></span>
         </div>    
     </div>
   );
